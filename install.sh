@@ -5,13 +5,13 @@
 # ======================================
 
 # ====== CONFIG ======
-PANEL_DOMAIN="${PANEL_DOMAIN:-panel.ASIDCLOUD.com}"
+PANEL_DOMAIN="${PANEL_DOMAIN:-http://${panel.asidcloud.com}"
 ADMIN_EMAIL="${ADMIN_EMAIL:-mominaluchifg@gmail.com}"
 ADMIN_USERNAME="${ADMIN_USERNAME:-admin}"
 ADMIN_FIRST="${ADMIN_FIRST:-admin}"
 ADMIN_LAST="${ADMIN_LAST:-admin}"
 ADMIN_PASSWORD="${ADMIN_PASSWORD:-admin12}"
-SERVER_IP="${SERVER_IP:-play.ASIDMC.com}"
+SERVER_IP="${SERVER_IP:-play.asidmc.com}"
 
 GREEN="\033[0;32m"
 NC="\033[0m"
@@ -168,7 +168,7 @@ systemctl restart wings
 # Done
 # ======================================
 echo -e "${GREEN}✅ Installation Complete!${NC}"
-echo "🌐 Panel: http://${panel.ASIDCLOUD.com}"
+echo "🌐 Panel: http://${panel.asidcloud.com}"
 echo "👤 Admin: ${mominaluchifg@gmail.com} / ${admin12}"
 echo "💾 Database User: ptero / ${DB_PASS}"
-echo "🪽 Wings running with IP: ${play.ASIDMC.fun}"
+echo "🪽 Wings running with IP: ${play.asidmc.fun}"
